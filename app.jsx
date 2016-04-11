@@ -64,7 +64,10 @@ class CounterContainer extends Component {
       <div>
         <h1> {this.props.appName} </h1>
         <ErrorComponent error={this.state.error} />
-        <CurrentValue myOnChange={this.handleTyping.bind(this)} value={this.state.value}/>
+        <CurrentValue 
+          myOnChange={this.handleTyping.bind(this)}
+          value={this.state.value}
+        />
         <SpecialButton myOnButtonClick={this.handleIncreaseButtonClick.bind(this)}>
           +
         </SpecialButton>
