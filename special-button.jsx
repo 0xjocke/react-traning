@@ -3,7 +3,7 @@ import React, {Component} from 'react' // New ES6 import syntax
 // Component
 class SpecialButton extends Component {
   handleClick(){
-    this.props.onButtonClick()
+    this.props.myOnButtonClick()
   }
   render(){
     return (
